@@ -119,6 +119,7 @@ function updateChart(dailyData, type) {
             },
             options: {
                 // This chart will not respond to mousemove, etc
+                events: []
             }
         });
 
@@ -135,6 +136,7 @@ function updateChart(dailyData, type) {
             },
             options: {
                 legend: { display: false },
+                events: []
             }
         });
     }
